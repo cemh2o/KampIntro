@@ -10,9 +10,15 @@ namespace Matematik
         {
        
             DortIslem dortIslem = new DortIslem();
+
             dortIslem.Topla(5, 6);
 
-            dortIslem.Topla(6, 9);
+            dortIslem.Cıkar(10, 6);
+
+            dortIslem.Carpma(5, 8);
+
+            dortIslem.bolme(45, 5);
+
 
         }
     }

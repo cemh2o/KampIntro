@@ -21,4 +21,11 @@ foreach (string kurs in kurslar)  //Dizi temellli yapıları kolay dolaşmak iç
     Console.WriteLine(kurs);
 }
 
-Console.WriteLine("sayfa sonu"); 
+Console.WriteLine("sayfa sonu");
+
+int sayi = 100;
+while (sayi > 100)
+{
+    Console.WriteLine(sayi);
+    sayi--;
+}
